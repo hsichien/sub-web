@@ -198,6 +198,14 @@
                   icon="el-icon-connection"
                   :disabled="customSubUrl.length === 0"
                 >一键导入Clash</el-button>
+                                </el-form-item>
+				<el-form-item label-width="0px" style="text-align: center">
+				<el-button
+                  style="width: 250px;"
+                  type="warning"
+                  icon="el-icon-video-play"
+                  @click="gotovideo"
+                >测速视频</el-button>
               </el-form-item>
             </el-form>
           </el-container>
