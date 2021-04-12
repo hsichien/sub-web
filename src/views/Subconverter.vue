@@ -956,14 +956,14 @@ export default {
       window.open(url + this.customSubUrl);
     },
     gotovideo() {
-    this.$alert("YouTube测速视频冲冲冲！",{
+    this.$alert("IU护体!",{
 	type: "warning",
 	confirmButtonText: '确定',
 	customClass: 'msgbox',
 	showClose: false ,
 	})
     .then(() => {
-        const youtube = 'https://www.youtube.com/watch?v=egSvdEJZRBk'
+        const youtube = 'https://www.youtube.com/watch?v=v7bnOxV4jAc'
         window.open(youtube);
         });
     },
