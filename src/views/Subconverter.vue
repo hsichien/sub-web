@@ -287,8 +287,8 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-         "sfw.rip":"https://sfw.rip/short",
          "suo.yt":"https://suo.yt/short",
+         "sfw.rip":"https://sfw.rip/short",
          "sub.cm":"https://sub.cm/short",
          "v1.mk":"https://v1.mk/short",
          "d1.mk":"https://d1.mk/short",
@@ -860,8 +860,8 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://azure.jkloli.top/sub?",
-        shortType: "https://sfw.rip/short",
+        customBackend: "https://subcon.dlj.tf/sub?",
+        shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR.ini",
         excludeRemarks: "",
         includeRemarks: "",
