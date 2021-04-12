@@ -197,7 +197,7 @@
                   @click="clashInstall"
                   icon="el-icon-connection"
                   :disabled="customSubUrl.length === 0"
-                >一键导入Clash</el-button>
+                >导入Clash</el-button>
                                 </el-form-item>
 				<el-form-item label-width="0px" style="text-align: center">
 				<el-button
