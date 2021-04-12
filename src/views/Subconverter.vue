@@ -903,7 +903,7 @@ export default {
     };
   },
   created() {
-    document.title = "在线订阅转换工具";
+    document.title = "HsiChien's订阅转换";
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
