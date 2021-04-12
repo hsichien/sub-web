@@ -314,6 +314,8 @@ export default {
             "https://sub.id9.cc/sub?",
           "sub.sub.cm(品云备A)":
             "https://sub.sub.cm/sub?",
+	  "Hsichien's后端":
+            "https://www.chien.asia/sub?",
           "sub.lpy.pw(品云备B)":
             "https://sub.lpy.pw/sub?",
           "subcon.dlj.tf(subconverter作者提供1)":
@@ -336,6 +338,7 @@ export default {
           { value: "https://api.weleven11.com/sub?" },
           { value: "https://sub.id9.cc/sub?" },
           { value: "https://sub.sub.cm/sub?" },
+	  { value: "https://www.chien.asia/sub?" },
           { value: "https://sub.lpy.pw/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
@@ -860,7 +863,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://subcon.dlj.tf/sub?",
+        customBackend: "https://www.chien.asia/sub?",
         shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR.ini",
         excludeRemarks: "",
