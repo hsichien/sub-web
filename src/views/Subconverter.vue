@@ -862,7 +862,7 @@ export default {
         clientType: "",
         customBackend: "https://azure.jkloli.top/sub?",
         shortType: "https://sfw.rip/short",
-        remoteConfig: "https://raw.githubusercontent.com/jklolixxs/listes/master/Clash/Config/Full_Plus_NoAdB.ini",
+        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
