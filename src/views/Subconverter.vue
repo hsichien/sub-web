@@ -346,7 +346,7 @@ export default {
           { value: "https://api.weleven11.com/sub?" },
           { value: "https://sub.id9.cc/sub?" },
           { value: "https://sub.sub.cm/sub?" },
-          { value: "https://www.chien.asia/sub?" },
+          { value: "https://www.1209.cf/sub?" },
           { value: "https://sub.lpy.pw/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
@@ -871,7 +871,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://www.chien.asia/sub?",
+        customBackend: "https://www.1209.cf/sub?",
         shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR.ini",
         excludeRemarks: "",
