@@ -323,7 +323,7 @@ export default {
           "sub.sub.cm(品云备A)":
             "https://sub.sub.cm/sub?",
           "Hsichien's后端":
-            "https://www.chien.asia/sub?",
+            "https://www.1209.cf/sub?",
           "sub.lpy.pw(品云备B)":
             "https://sub.lpy.pw/sub?",
           "subcon.dlj.tf(subconverter作者提供1)":
