@@ -1152,7 +1152,7 @@ export default {
         ? backends.filter(this.createFilter(queryString))
         : backends;
 
-      // 调用 callback 返回建议列表的数据
+      // 调用 callback 返回建议列表的数据.
       cb(results);
     },
     createFilter(queryString) {
