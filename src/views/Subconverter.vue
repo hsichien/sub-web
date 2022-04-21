@@ -303,55 +303,14 @@ export default {
          "dlj.tf":"https://dlj.tf/short",
         },
         customBackend: {
-          "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "azure.jkloli.top(jklolixxs提供)":
-            "https://azure.jkloli.top/sub?",
-          "sub.lryu4.com(厘米云)":
-            "https://sub.lryu4.com/sub?",
           "www.nameless13.com(w8ves)":
             "https://www.nameless13.com/sub?",
-          "api.ytoo-163cdn.com(ytoo)":
-            "https://api.ytoo-163cdn.com/sub?",
-          "sub.maoxiongnet.com(猫熊)":
-            "https://sub.maoxiongnet.com/sub?",
-          "sub.maoxiongnet.com(ABCloud)":
-            "https://api.abc-sub.xyz/sub?",
-          "api.weleven11.com(We1eVen)":
-            "https://api.weleven11.com/sub?",
-          "sub.id9.cc(品云主端)":
-            "https://sub.id9.cc/sub?",
-          "sub.sub.cm(品云备A)":
-            "https://sub.sub.cm/sub?",
           "Hsichien's后端":
-            "https://www.1209.cf/sub?",
-          "sub.lpy.pw(品云备B)":
-            "https://sub.lpy.pw/sub?",
-          "subcon.dlj.tf(subconverter作者提供1)":
-            "https://subcon.dlj.tf/sub?",
-          "subconverter-web.now.sh(subconverter作者提供2-稳定)":
-            "https://subconverter-web.now.sh/sub?",
-          "subconverter.herokuapp.com(subconverter作者提供3-稳定)":
-            "https://subconverter.herokuapp.com/sub?",
-          "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
-          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?"
+            "https://www.1209.cf/sub?"
         },
         backendOptions: [
-          { value: "http://localhost:25500/sub?" },
-          { value: "https://azure.jkloli.top/sub?" },
-          { value: "https://sub.lryu4.com/sub?" },
           { value: "https://www.nameless13.com/sub?" },
-          { value: "https://api.ytoo-163cdn.com/sub?" },
-          { value: "https://sub.maoxiongnet.com/sub?" },
-          { value: "https://api.abc-sub.xyz/sub?" },
-          { value: "https://api.weleven11.com/sub?" },
-          { value: "https://sub.id9.cc/sub?" },
-          { value: "https://sub.sub.cm/sub?" },
-          { value: "https://www.1209.cf/sub?" },
-          { value: "https://sub.lpy.pw/sub?" },
-          { value: "https://subcon.dlj.tf/sub?" },
-          { value: "https://subconverter-web.now.sh/sub?" },
-          { value: "https://subconverter.herokuapp.com/sub?" },
-          { value: "https://api.wcc.best/sub?" }
+          { value: "https://www.1209.cf/sub?" }
         ],
         remoteConfig: [
           {
@@ -373,46 +332,6 @@ export default {
               {
                 label: "ACL_去广告版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_AdblockPlus.ini"
-              },
-              {
-                label: "ACL_回国版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_BackCN.ini"
-              },
-              {
-                label: "ACL_精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Mini.ini"
-              },
-              {
-                label: "ACL_Fallback精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Mini_Fallback.ini"
-              },
-              {
-                label: "ACL_多模式精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Mini_MultiMode.ini"
-              },
-              {
-                label: "ACL_无测速精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Mini_NoAuto.ini"
-              },
-              {
-                label: "ACL_无苹果版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_NoApple.ini"
-              },
-              {
-                label: "ACL_无测速版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_NoAuto.ini"
-              },
-              {
-                label: "ACL_无测速、苹果版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_NoAuto_NoApple.ini"
-              },
-              {
-                label: "ACL_无测速、苹果、微软版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_NoAuto_NoApple_NoMicrosoft.ini"
-              },
-              {
-                label: "ACL_无微软版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_NoMicrosoft.ini"
               },
               {
                 label: "ACL_同步更新版",
@@ -445,163 +364,6 @@ export default {
               {
                 label: "ACL_同步+全分组+无测速版",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
-              },
-              {
-                label: "ACL_同步更新精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
-              },
-              {
-                label: "ACL_同步+去广告精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
-              },
-              {
-                label: "ACL_同步+Fallback精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
-              },
-              {
-                label: "ACL_同步+多国家精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiCountry.ini"
-              },
-              {
-                label: "ACL_同步+多模式精简版",
-                value: "https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
-              },
-              {
-                label: "ACL_同步+无测速精简版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
-              },
-              {
-                label: "ACL_同步+无Reject版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini"
-              },
-              {
-                label: "ACL_白名单版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_WithChinaIp.ini"
-              },
-              {
-                label: "ACL_白名单+GFW列表版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_WithChinaIp_WithGFW.ini"
-              },
-              {
-                label: "ACL_GFW列表版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_WithGFW.ini"
-              }
-            ]
-          },
-          {
-            label: "全网搜集规则",
-            options: [
-              {
-                label: "常规规则",
-                value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG.ini"
-              },
-              {
-                label: "分区域故障转移",
-                value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG_Area_Fallback.ini"
-              },
-              {
-                label: "分区域自动测速",
-                value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG_Area_Urltest.ini"
-              },
-              {
-                label: "分区域无自动测速",
-                value: "https://raw.githubusercontent.com/flyhigherpi/merlinclash_clash_related/master/Rule_config/ZHANG_Area_NoAuto.ini"
-              }, 
-              {
-                label: "OoHHHHHHH",
-                value: "https://raw.githubusercontent.com/OoHHHHHHH/ini/master/config.ini"
-              },
-              {
-                label: "CFW-TAP",
-                value: "https://raw.githubusercontent.com/OoHHHHHHH/ini/master/cfw-tap.ini"
-              },
-              {
-                label: "lhl77全分组（定期更新）",
-                value: "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-full.ini"
-              },
-              {
-                label: "lhl77简易版（定期更新）",
-                value: "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
-              },
-              {
-                label: "ConnersHua 神机规则 Outbound",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/connershua_new.ini"
-              },
-              {
-                label: "ConnersHua 神机规则 Inbound 回国专用",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/connershua_backtocn.ini"
-              },
-              {
-                label: "lhie1 洞主规则（使用 Clash 分组规则）",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/lhie1_clash.ini"
-              },
-              {
-                label: "lhie1 洞主规则完整版",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/lhie1_dler.ini"
-              },
-              {
-                label: "eHpo1 规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/ehpo1_main.ini"
-              },
-              {
-                label: "多策略组默认白名单模式",
-                value: "https://raw.nameless13.com/api/public/dl/ROzQqi2S/white.ini"
-              },
-              {
-                label: "多策略组可以有效减少审计触发",
-                value: "https://raw.nameless13.com/api/public/dl/ptLeiO3S/mayinggfw.ini"
-              },
-              {
-                label: "精简策略默认白名单",
-                value: "https://raw.nameless13.com/api/public/dl/FWSh3dXz/easy3.ini"
-              },
-              {
-                label: "多策略增加SMTP策略",
-                value: "https://raw.nameless13.com/api/public/dl/L_-vxO7I/youtube.ini"
-              },
-              {
-                label: "无策略入门推荐",
-                value: "https://raw.nameless13.com/api/public/dl/zKF9vFbb/easy.ini"
-              },
-              {
-                label: "无策略入门推荐国家分组",
-                value: "https://raw.nameless13.com/api/public/dl/E69bzCaE/easy2.ini"
-              },
-              {
-                label: "无策略仅IPIP CN + Final",
-                value: "https://raw.nameless13.com/api/public/dl/XHr0miMg/ipip.ini"
-              },
-              {
-                label: "无策略魅影vip分组",
-                value: "https://raw.nameless13.com/api/public/dl/BBnfb5lD/MAYINGVIP.ini"
-              },
-              {
-                label: "品云专属配置（仅香港区域分组）",
-                value: "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/Examine.ini"
-              },
-              {
-                label: "品云专属配置（全地域分组）",
-                value: "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/Examine_Full.ini"
-              },
-              {
-                label: "nzw9314 规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/nzw9314_custom.ini"
-              },
-              {
-                label: "maicoo-l 规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/maicoo-l_custom.ini"
-              },
-              {
-                label: "DlerCloud Platinum 李哥定制规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_platinum.ini"
-              },
-              {
-                label: "DlerCloud Gold 李哥定制规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_gold.ini"
-              },
-              {
-                label: "DlerCloud Silver 李哥定制规则",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_silver.ini"
               }
             ]
           },
